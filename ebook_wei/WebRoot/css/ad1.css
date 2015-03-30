@@ -1,0 +1,79 @@
+.ad1 {
+	height:310px;
+	
+	margin: 0; padding: 0;
+	font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+}
+*{outline: none;}
+img {border: 0;}
+.container {
+	width: 721px;
+	padding: 0;
+	margin: 0 auto;
+	
+}
+.folio_block {
+	/*position: absolute;
+	left: 50%; top: 50%;
+	margin: -140px 0 0 -395px;*/
+
+}
+
+
+/*--Main Container--*/
+.main_view {
+	float: left;
+	position: relative;
+}
+/*--Window/Masking Styles--*/
+.window {
+	height:286px;	width: 721px;
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+	/**/position: relative;
+}
+.image_reel {
+	position: absolute;
+	top: 0; left: 0;
+}
+.image_reel img {
+	width:720px;
+	height:287px;
+	float: left;}
+
+/*--Paging Styles--*/
+.paging {
+	position: absolute;
+	bottom: 40px; right: -7px;
+	width: 178px; height:47px;
+	z-index: 100; /*--Assures the paging stays on the top layer--*/
+	text-align: center;
+	line-height: 40px;
+	background: url(../images/btn/paging_bg2.png) no-repeat;
+	display: none; /*--Hidden by default, will be later shown with jQuery--*/
+}
+.paging a {
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+.paging a.active {
+	font-weight: bold; 
+	background: #920000; 
+	border: 1px solid #610000;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.paging a:hover {font-weight: bold;}
+
+/*ad2--------------------------------------*/
+.ad2 li{
+	margin-top:20px;
+	border:1px solid #BFE2FE;
+		width:361px;
+		height:135px;
+	}
+	.ad2 li img{
+		width:361px;
+		height:135px;
+		}

@@ -1,0 +1,213 @@
+.daohang{
+	width:920px;
+	margin:0 auto;
+	
+	background: url("../images/background/home.jpg") no-repeat scroll 10px 50% transparent;
+    height: 24px;
+    line-height: 24px;
+	padding-left: 30px;
+	}
+.v-left{
+    float: left;
+   
+    width: 240px;
+	}
+	/*显示商品 排行等 右侧。。。。。。。。。。*/
+.v-right{
+	margin-left:50px;
+	float: left;
+    overflow: hidden;
+    width: 700px;
+
+	}
+.lishiliulan{
+	border: 1px solid #BFE2FE;
+   
+    margin-bottom: 5px;
+    width: 238px;
+	}
+.book-tuijian{
+	border: 1px solid #BFE2FE;
+  	margin-top:10px;
+    margin-bottom: 5px;
+    width: 238px;
+	}
+.title{
+	background: none repeat scroll 0 0 #BFE2FE;
+    height: 30px;
+    line-height: 22px;
+	}
+	.title h3{
+		float:left; 
+		margin-top:5px;
+		margin-left:5px;
+		font-size:18px;
+		color:#000;
+	}
+	.title a{
+		float:right;
+		margin-top:5px;
+		margin-right:15px;
+		font-size:14px;
+		}
+.bookinfo{
+	 padding: 0 8px;
+   
+    width: 223px !important;
+	}
+	.bookinfo ul {
+    margin: 0;
+    padding-bottom: 10px;
+		}
+		.bookinfo ul li {
+    border-bottom: 1px dashed #DDDDDD;
+    height: 80px !important;
+    list-style: none outside none;
+    padding: 10px 0;
+}
+.bookinfo img {
+    border: 1px solid #BFE2FE;
+    float: left;
+    height: 75px;
+    width: 60px;
+}
+.bookinfo div {
+	overflow:hidden;
+	text-overflow:ellipsis;
+    color: #999999;
+    float: right;
+    font-family: Arial;
+    line-height: 15px;
+	height:30px;
+    width: 150px;
+	margin-bottom:7px;
+}
+.bookinfo .price{
+	font-size:14px;
+	color:#C60C0D;
+	height:15px;
+	}
+.bookinfo .count{
+	font-size:14px;
+	color:#000;
+	height:15px;
+	}
+.info-title {
+    background: url("../images/background/dian.gif") repeat-x scroll center bottom transparent;
+    clear: both;
+    height: 29px;
+    overflow: hidden;
+    width: 100%;
+	border-bottom:1px solid #D6D6D6;
+}
+.info-title ul .button02 {
+    background: url("../images/btn/title1.jpg") repeat scroll left top transparent;
+    color: #CC0009;
+    font-weight: bold;
+    height: 29px;
+    line-height: 29px;
+}
+.info-title ul li {
+    background: url("../images/btn/title1.jpg") repeat scroll right top transparent;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 29px;
+    line-height: 29px;
+    margin-right: 3px;
+    text-align: center;
+    width: 100px;
+}
+.message_menu {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+   
+	border-left:1px solid #D6D6D6;
+	border-bottom:1px solid #D6D6D6;
+    border-right: 1px solid #D6D6D6;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    clear: both;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+	
+    width: 678px;
+}
+.message_menu .divclear {
+    clear: both;
+    padding-top: 10px;
+}
+.ptitle {
+    background: none repeat scroll 0 0 #AC090D;
+    clear: both;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 15px;
+    text-indent: 15px;
+}
+.pjcontent{
+	width:676px;
+	height:auto;
+	white-space:normal;
+	word-break:break-all;
+	word-wrap:break-word;
+	}
+.bookimg{
+	  float: left;
+    padding-top: 20px;
+    text-align: center;
+    width: 270px;
+	}
+	.bookimg img{
+		width:200px;
+		height:270px;
+		
+		}
+.bookname{
+	  float: right;
+    padding: 20px 0;
+    width: 430px;
+	}
+.buybtn{
+	  background: none repeat scroll 0 0 #FFF7F7;
+    border: 1px solid #FFCFCF;
+	margin-top:15px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+	}
+.buy-btn{
+	  background: url("../images/btn/btn_buy1.gif") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 47px;
+    width: 130px;
+	}
+.buybtn .ttable{
+	padding-left:10px;
+	padding-top:10px;
+	padding-right:5px;
+	}
+.name{
+	 font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+	}
+.price{
+	 color: #98070E;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    padding-right: 10px;
+    text-align: left;
+	}
+.bookname td{
+	height: 25px;
+	}

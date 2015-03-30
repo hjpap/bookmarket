@@ -1,0 +1,122 @@
+.webbody{
+	/**/float:left;
+	 margin:0 auto;
+	 margin-left:50px;
+	/*改*/margin-bottom:50px;
+	
+	width:1120px;
+	
+	}
+.bodyleft{
+	
+	/*删border:1px solid #999;*/
+	width:360px;
+	margin-top:50px;
+	float:left;}
+.bodyright{
+	margin-top:50px;
+	width:725px;
+	/*删border:1px solid #999;*/
+	float:right;}
+
+	.bookshow{
+	float:right;
+	margin-bottom:10px;
+	border:1px solid #BFE2FE;
+	height:auto;
+     width: 720px;
+	
+	}
+	.bookshow .bookshow-title{
+	/*background: none repeat scroll 0 0 #E4E4E4;*/
+    height: 30px;
+    line-height: 22px;
+	border-bottom:1px solid #BFE2FE;
+	
+		}
+	.bookshow .bookshow-title h3{
+		float:left; 
+		margin-top:3px;
+		margin-left:15px;
+		font-size:1.6em;
+		
+		color:#000;
+		
+	}
+	.bookshow .bookshow-title a{
+		float:right;
+		margin-top:5px;
+		margin-right:20px;
+		font-size:14px;
+		}
+.bookshow-content{
+	float:left;
+	}
+/*展示一本书 的div*/
+.book{
+	
+	margin-top:15px;
+	float:left;
+	margin-left:20px;
+	width:120px;
+	height:210px;
+	text-align:center;
+	}
+.book img{
+	/*border:1px solid #CCC;
+	width:150px;
+	height:180px;*/
+	
+	border:1px solid #000;
+	width:100px;
+	height:140px;
+	}
+.book .book-name{
+	/*overflow:hidden;
+	text-overflow:ellipsis;
+	margin-top:6px;
+	color:#666;
+	height:15px;
+	line-height:13px;
+	text-align:left;*/
+	word-break:break-word;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	margin-top:6px;
+	color:#666;
+	height:27px;
+	line-height:13px;
+	text-align:left;
+	
+	}
+	.book .book-name a{
+    color:#666;
+	font-size: 12px;
+    font-family: "微软雅黑";
+		}
+.book .book-price{
+	
+	text-align:left;
+	clear: both;
+    color: #FF6666;
+    display: block;
+	font-size: 12px;
+    font-family: "微软雅黑";
+	font-weight:bold;
+	background: none repeat scroll 0 0 #E4E4E4;
+	}
+/*展示一本书 的div........结束*/
+
+.footer{
+	float:left;
+	height:80px;
+	width:100%;
+	background: #BFE2FE;
+	text-align:center;
+	padding-top:20px;
+	}
+.clear{
+	clear: both;
+    padding-top: 10px;
+	height:30px;
+	}

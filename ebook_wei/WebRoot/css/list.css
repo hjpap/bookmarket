@@ -1,0 +1,128 @@
+.listfenlei{
+	margin-top:10px;
+	float:left;
+	
+	width:1100px;
+	border:1px solid #BFE2FE;
+	
+	
+	}
+	.listfenlei .fenlei{
+		width:500px;
+		margin:0 auto;
+		float:left;
+		margin-top:10px;
+		margin-left:10px;
+		margin-bottom:10px;
+		
+		}
+		.fenlei a{
+			margin-left:20px;
+			
+			}
+	.listfenlei .fenlei1{
+		float:left;
+		font-size:14px;
+		
+		}
+	.listfenlei .fenlei2{
+		float:left;
+		margin-top:2px;
+		font-size:12px;
+		}
+
+
+.list_top{
+	margin-top:10px;
+	float:left;
+	height:30px;
+	width:1100px;
+	border:1px solid #BFE2FE;
+	
+	}
+.list_top .paixubtn{
+	margin-top:7px;
+	margin-left:10px;
+	float:left;
+	}
+.list_top span{
+	margin-left:10px;
+	margin-top:7px;
+	float:left;
+	}
+
+.list_bottom{
+	margin-top:10px;
+	float:left;
+	height:50px;
+	width:1100px;
+	border:1px solid #BFE2FE;
+	}
+.list_content{
+	margin-top:10px;
+	float:left;
+	height:auto;
+	width:1100px;
+	border:1px solid #BFE2FE;
+	}
+	
+/*CSS badoo style pagination*/
+
+DIV.badoo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 10px; COLOR: #48b9ef; PADDING-TOP: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center
+}
+DIV.badoo A {
+	BORDER-RIGHT: #f0f0f0 2px solid; PADDING-RIGHT: 5px; BORDER-TOP: #f0f0f0 2px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; MARGIN: 0px 2px; BORDER-LEFT: #f0f0f0 2px solid; COLOR: #48b9ef; PADDING-TOP: 2px; BORDER-BOTTOM: #f0f0f0 2px solid; TEXT-DECORATION: none
+}
+DIV.badoo A:hover {
+	BORDER-RIGHT: #ff5a00 2px solid; BORDER-TOP: #ff5a00 2px solid; BORDER-LEFT: #ff5a00 2px solid; COLOR: #ff5a00; BORDER-BOTTOM: #ff5a00 2px solid
+}
+DIV.badoo A:active {
+	BORDER-RIGHT: #ff5a00 2px solid; BORDER-TOP: #ff5a00 2px solid; BORDER-LEFT: #ff5a00 2px solid; COLOR: #ff5a00; BORDER-BOTTOM: #ff5a00 2px solid
+}
+DIV.badoo SPAN.current {
+	BORDER-RIGHT: #ff5a00 2px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ff5a00 2px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: #ff5a00 2px solid; COLOR: #fff; PADDING-TOP: 2px; BORDER-BOTTOM: #ff5a00 2px solid; BACKGROUND-COLOR: #ff6c16
+}
+DIV.badoo SPAN.disabled {
+	DISPLAY: none
+}
+/*CSS badoo style pagination*/
+
+.list_book{
+	margin-top:20px;
+	margin-left:20px;
+	margin-bottom:20px;
+	width:190px;
+	height:310px;
+	
+	float:left;
+	text-align:center;
+	}
+	.list_book img{
+		border:1px solid #BFE2FE;
+		width:188px;
+		height:240px;
+		
+		}
+	.list_name{
+		font-size:15px;
+		word-break:break-word;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		margin-top:6px;
+		color:#666;
+		height:30px;
+		line-height:15px;
+		text-align:left;
+		width:190px;
+		}
+	.list_price{
+		text-align:left;
+		clear: both;
+   		color: #FF6666;
+   		display: block;
+		font-size: 16px;
+   		font-family: "Î¢ÈíÑÅºÚ";
+		font-weight:bold;
+		width:190px;
+		}

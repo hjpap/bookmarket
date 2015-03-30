@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>LoginServlert</servlet-name>
+    <servlet-class>com.wei.servlet.LoginServlert</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.wei.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckUserIdServlet</servlet-name>
+    <servlet-class>com.wei.servlet.CheckUserIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.wei.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>com.wei.servlet.IndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateUserInfoServlet</servlet-name>
+    <servlet-class>com.wei.servlet.UpdateUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AlterUserPwdServlet</servlet-name>
+    <servlet-class>com.wei.servlet.AlterUserPwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AuthCodeServlet</servlet-name>
+    <servlet-class>com.wei.servlet.AuthCodeServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlert</servlet-name>
+    <url-pattern>/LoginServlert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckUserIdServlet</servlet-name>
+    <url-pattern>/CheckUserIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/IndexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUserInfoServlet</servlet-name>
+    <url-pattern>/UpdateUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterUserPwdServlet</servlet-name>
+    <url-pattern>/AlterUserPwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuthCodeServlet</servlet-name>
+    <url-pattern>/AuthCodeServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+		<servlet-name>ConnectorServlet</servlet-name>
+		<servlet-class>com.ckfinder.connector.ConnectorServlet</servlet-class>
+		<init-param>
+			<param-name>XMLConfig</param-name>
+			<param-value>/WEB-INF/config.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>debug</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+  <servlet>
+    <servlet-name>AddGoodsServlet</servlet-name>
+    <servlet-class>com.wei.servlet.AddGoodsServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>AlterGoodsServlet</servlet-name>
+    <servlet-class>com.wei.servlet.AlterGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>com.wei.servlet.CartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelGoodsServlet</servlet-name>
+    <servlet-class>com.wei.servlet.DelGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateOrderServlet</servlet-name>
+    <servlet-class>com.wei.servlet.CreateOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AlterOrderStatus</servlet-name>
+    <servlet-class>com.wei.servlet.AlterOrderStatus</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addBoardServlet</servlet-name>
+    <servlet-class>com.wei.servlet.addBoardServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AlterBoardServlet</servlet-name>
+    <servlet-class>com.wei.servlet.AlterBoardServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelBoardServlet</servlet-name>
+    <servlet-class>com.wei.servlet.DelBoardServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AlterAdServlet</servlet-name>
+    <servlet-class>com.wei.servlet.AlterAdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddPingjiaServlet</servlet-name>
+    <servlet-class>com.wei.servlet.AddPingjiaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.wei.servlet.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminLogoutServlet</servlet-name>
+    <servlet-class>com.wei.servlet.AdminLogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelVipServlet</servlet-name>
+    <servlet-class>com.wei.servlet.DelVipServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddTypeServlet</servlet-name>
+    <servlet-class>com.wei.servlet.AddTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelTypeServlet</servlet-name>
+    <servlet-class>com.wei.servlet.DelTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServletTypeServlet</servlet-name>
+    <servlet-class>com.wei.servlet.ServletTypeServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>ConnectorServlet</servlet-name>
+		<url-pattern>
+			/ckfinder/core/connector/java/connector.java
+		</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGoodsServlet</servlet-name>
+    <url-pattern>/AddGoodsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AlterGoodsServlet</servlet-name>
+    <url-pattern>/AlterGoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/CartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelGoodsServlet</servlet-name>
+    <url-pattern>/DelGoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateOrderServlet</servlet-name>
+    <url-pattern>/CreateOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterOrderStatus</servlet-name>
+    <url-pattern>/AlterOrderStatus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addBoardServlet</servlet-name>
+    <url-pattern>/admin/addBoardServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterBoardServlet</servlet-name>
+    <url-pattern>/admin/AlterBoardServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelBoardServlet</servlet-name>
+    <url-pattern>/admin/DelBoardServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterAdServlet</servlet-name>
+    <url-pattern>/admin/AlterAdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPingjiaServlet</servlet-name>
+    <url-pattern>/AddPingjiaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/admin/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLogoutServlet</servlet-name>
+    <url-pattern>/admin/AdminLogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelVipServlet</servlet-name>
+    <url-pattern>/admin/DelVipServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTypeServlet</servlet-name>
+    <url-pattern>/admin/AddTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelTypeServlet</servlet-name>
+    <url-pattern>/admin/DelTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletTypeServlet</servlet-name>
+    <url-pattern>/admin/ServletTypeServlet</url-pattern>
+  </servlet-mapping>
+	<filter>
+		<filter-name>FileUploadFilter</filter-name>
+		<filter-class>com.ckfinder.connector.FileUploadFilter</filter-class>
+                <init-param>
+                    <param-name>sessionCookieName</param-name>
+                    <param-value>JSESSIONID</param-value>
+                </init-param>
+                <init-param>
+                    <param-name>sessionParameterName</param-name>
+                    <param-value>jsessionid</param-value>
+                </init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>FileUploadFilter</filter-name>
+		<url-pattern>
+			/ckfinder/core/connector/java/connector.java
+     	 </url-pattern>
+	</filter-mapping>
+	
+	
+ <filter>
+  	<filter-name>EncodeFilter</filter-name>
+  	<filter-class>com.wei.filter.EncodeFilter</filter-class>
+  	<init-param>
+  		<param-name>encode</param-name>
+  		<param-value>utf-8</param-value>
+  	</init-param>
+  </filter>
+  <filter-mapping>
+  	<filter-name>EncodeFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+</web-app>

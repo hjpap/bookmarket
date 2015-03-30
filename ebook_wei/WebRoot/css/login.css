@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0 none;
+}
+* ul, * ol, * li {
+    list-style: none outside none;
+}
+.clear {
+    clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.login_wrap {
+    background: url("../images/background/login_bg_20110808.png") repeat scroll 0 0 transparent;
+    color: #404040;
+    font-size: 12px;
+    height: 663px;
+    text-align: center;
+}
+.login_header {
+    height: 80px;
+    margin: 0 auto;
+    text-align: left;
+    width: 960px;
+}
+.login_header h1 {
+    padding: 22px 0 0 73px;
+}
+.login_main {
+    height: 400px;
+    overflow: hidden;
+    text-align: left;
+}
+.login_panel {
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+  
+}
+.login_main a {
+    color: #1A66B3;
+    text-decoration: none;
+}
+.login_main a:hover {
+    color: #1A66B3;
+    text-decoration: underline;
+}
+.login_wrap input {
+    font-family: Arial;
+}
+.right_panel {
+    overflow: hidden;
+    position: absolute;
+   left:270px;
+    top: 66px;
+    width: 451px;
+}
+.login_frame_top, .login_frame_bottom {
+    background: url("../images/background/login_sprites_20110808.png") no-repeat scroll 0 0 transparent;
+    font-size: 0;
+    height: 4px;
+    line-height: 0;
+    overflow: hidden;
+    width: 451px;
+}
+.login_frame_bottom {
+    background-position: 0 -4px;
+    height: 42px;
+}
+.login_frame_border {
+    background: none repeat scroll 0 0 #F4F4F4;
+    border-left: 1px solid #D1D1CF;
+    border-right: 1px solid #D1D1CF;
+    padding: 0 2px;
+    width: 445px;
+}
+.login_frame {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 445px;
+}
+.right_panel .login_title {
+    color: #9C9C9C;
+    height: 46px;
+    padding: 27px 41px 0 20px;
+    text-align: right;
+    width: 384px;
+}
+.right_panel .login_title i {
+    background: url("../images/background/login_sprites_20110808.png") no-repeat scroll -146px -46px transparent;
+    float: left;
+    height: 18px;
+    margin-top: -6px;
+    width: 90px;
+}
+.right_panel .login_title a {
+    background: url("../images/background/login_sprites_20110808.png") no-repeat scroll 0 -46px transparent;
+    float: right;
+    font-size: 0;
+    height: 24px;
+    line-height: 72px;
+    margin: -6px 0 0 10px;
+    overflow: hidden;
+    width: 73px;
+}
+.right_panel .login_title a:hover {
+    background-position: -73px -46px;
+}
+.right_panel .clearfix {
+    height: 56px;
+}
+.right_panel label {
+    float: left;
+    padding: 7px 18px 0 0;
+    text-align: right;
+    width: 92px;
+}
+.right_panel .login_input {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D9D9D9;
+    float: left;
+    height: 24px;
+    overflow: hidden;
+    width: 235px;
+}
+.right_panel .clearfix input {
+    border: 1px solid #FFFFFF;
+    color: #404040;
+    font-size: 12px;
+    height: 21px;
+    line-height: 21px;
+    margin: 0;
+    padding: 1px 0 0 6px;
+    width: 227px;
+}
+.right_panel .clearfix input.tip {
+    border: 1px solid #FFFFFF;
+}
+.right_panel .clearfix input.focus {
+    border: 1px solid #66CCFF;
+}
+.right_panel .hint {
+    clear: both;
+    color: #9C9C9C;
+    display: block;
+    padding: 6px 0 0 116px;
+    width: 329px;
+}
+.right_panel .error {
+    clear: both;
+    color: #CC3300;
+    display: block;
+    padding: 5px 0 0 116px;
+}
+.right_panel .forgotpassword {
+    float: left;
+    padding: 7px 0 0 10px;
+}
+.right_panel .replacetype01 {
+    background: url("../images/background/signin_replacetype.png") no-repeat scroll 10px 7px transparent;
+    float: left;
+    padding: 7px 0 0 23px;
+}
+.right_panel .replacetype02 {
+    background: url("../images/background/signin_replacetype.png") no-repeat scroll -105px 6px transparent;
+    float: left;
+    padding: 7px 0 0 23px;
+}
+.right_panel .vcode {
+    width: 90px;
+}
+.right_panel .vcode input {
+    width: 82px;
+}
+.right_panel .login_vcode {
+    float: left;
+    height: 21px;
+    padding: 9px 0 0 156px;
+    position: relative;
+    z-index: 100;
+}
+.right_panel .login_vcode .vcode_img {
+    left: 15px;
+    position: absolute;
+    top: -2px;
+}
+.right_panel .login_btn {
+    height: 63px;
+    padding: 0 0 0 108px;
+}
+.right_panel .login_btn input {
+    background: url("../images/background/login_sprites_20110808.png") no-repeat scroll -237px -46px transparent;
+    border: medium none;
+    cursor: pointer;
+    float: left;
+    font-size: 0;
+    height: 27px;
+    line-height: 81px;
+    overflow: hidden;
+    width: 94px;
+}
+.right_panel .login_btn input.btn_login_hover {
+    background-position: -331px -46px;
+}
+.right_panel p.winerror {
+    position: relative;
+    z-index: 200;
+}
+.right_panel p.winerror .error {
+    background: url("../images/background/login_sprites_20110808.png") no-repeat scroll 0 -74px transparent;
+    color: #666666;
+    display: block;
+    height: 58px;
+    left: 110px;
+    line-height: 16px;
+    padding: 13px 0 0 10px;
+    position: absolute;
+    top: 21px;
+    width: 214px;
+}
+.right_panel p.winerror .error b {
+    color: #404040;
+    display: block;
+    font-weight: bold;
+    padding: 0 0 3px 13px;
+}
+.right_panel .login_frist {
+    position: relative;
+}
+.right_panel .winerror02 .error {
+    background: url("../images/background/login_sprites_20110808.png") no-repeat scroll -237px -74px transparent;
+    color: #404040;
+    display: block;
+    height: 46px;
+    left: 110px;
+    overflow: hidden;
+    padding: 15px 0 0;
+    position: absolute;
+    top: 21px;
+    width: 180px;
+}
+.right_panel .winerror02 .error input {
+    border: medium none;
+    float: left;
+    height: auto;
+    margin: 0 3px 0 11px;
+    padding: 0;
+    width: auto;
+}
+.right_panel .winerror02 .error b {
+    display: block;
+    padding: 0 0 6px 11px;
+}
+.right_panel .winerror02 .error span {
+    float: left;
+}
+.winerror02 .error span.error_name {
+    margin-right: 33px;
+}
+.login_frame_border .login_btn02 input {
+    background-position: 0 -145px;
+}
+.login_frame_border .login_btn02 input.btn_login_hover {
+    background-position: -100px -145px;
+}
+.co_login {
+    color: #878787;
+    margin: -7px 0 9px 20px;
+    overflow: hidden;
+    width: 400px;
+}
+.co_login .icon {
+    margin-top: 11px;
+}
+.co_login a {
+    border-right: 1px solid #D9D9D9;
+    display: inline-block;
+    height: 16px;
+    line-height: 18px;
+    margin: 0 0 8px;
+    padding-right: 5px;
+}
+.co_login a.last {
+    border-right: medium none;
+}
+
+.co_login .icon_sina {
+    background-position: 0 0;
+}
+.co_login .icon_alipay {
+    background-position: -20px 0;
+}
+.co_login .icon_renren {
+    background-position: -40px 0;
+}
+.co_login .icon_qq {
+    background-position: 0 -20px;
+}
+.co_login .icon_msn {
+    background-position: -20px -20px;
+}
+.co_login .icon_shengda {
+    background-position: -40px -20px;
+}
+.co_login .icon_baidu {
+    background-position: 0 -40px;
+}
+.co_login .icon_163 {
+    background-position: -20px -40px;
+}
+.co_login .icon_139 {
+    background-position: -40px -40px;
+}
+.co_login .icon_fetion {
+    background-position: 0 -60px;
+}
+.co_login .eng {
+    font-family: Arial;
+}
+.public_footer_box {
+    clear: both;
+    font: 12px "宋体",Arial,Helvetica,sans-serif;
+    margin: 0 auto;
+    width: 100%;
+}
+.public_footer {
+    color: #666666;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 32px 5px 0;
+    width: 950px;
+}
+.public_footer a {
+    color: #666666 !important;
+    font-size: 12px;
+    text-decoration: none;
+}
+.public_footer a:hover {
+    color: #FF6600 !important;
+    text-decoration: underline;
+}
+.public_footer .sep {
+    display: inline-block;
+    padding: 0 18px;
+}
+.public_footer .footer_copyright {
+    margin: 0 auto;
+    padding-left: 168px;
+    width: 792px;
+}
+.public_footer .footer_copyright span {
+    display: inline;
+    float: left;
+}
+.public_footer .footer_copyright span {
+    padding-top: 10px;
+}
+.public_footer .footer_copyright a {
+    padding-right: 4px;
+}
+.public_footer .footer_icon {
+    height: 57px;
+    margin: 10px 0 0 335px;
+    width: 300px;
+}
+.public_footer .validator, .public_footer .knet {
+    display: inline;
+    float: left;
+    height: 47px;
+    padding: 0 5px;
+    width: 135px;
+}

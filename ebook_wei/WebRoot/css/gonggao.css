@@ -1,0 +1,60 @@
+
+	.helpin {
+    border-bottom: 1px solid #E4E4E4;
+    margin-bottom: 15px;
+}
+	
+
+.hel-titel {
+    border-bottom: 1px solid #E4E4E4;
+    color: #666666;
+    font-family: "微软雅黑";
+    font-size: 36px;
+    height: 80px;
+    line-height: 80px;
+}
+.hel-left {
+    float: left;
+    width: 270px;
+}
+.w-titel {
+    border-bottom: 1px dashed #E4E4E4;
+    color: #FF0000;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.hel-list li {
+    border-bottom: 1px solid #E4E4E4;
+    height: 31px;
+    line-height: 30px;
+    text-align: center;
+    width: 270px;
+}
+.hel-right {
+	margin-left:80px;
+    border-left: 1px solid #E4E4E4;
+    float: left;
+    line-height: 24px;
+    padding: 15px 20px 20px 28px;
+    width: 700px;	
+}
+
+.gw-titel {
+    border-bottom: 1px dashed #E4E4E4;
+    color: #FF0000;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+}
+.gwys li {
+    border-bottom: 1px solid #E4E4E4;
+    float: left;
+    line-height: 30px;
+    margin-right: 10px;
+    padding-left: 10px;
+    width: 330px;
+}

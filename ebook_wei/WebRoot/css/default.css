@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+html { background-color: #FFFFFF; font-size: 1em; }
+body { font-family: tahoma, arial, "宋体", sans-serif; font-size: 0.75em;
+}
+label { cursor: pointer; }
+code { display: block; }
+a:hover {
+    color: #FF8C00;
+}
+
+a:link {
+    color: #333333;
+    text-decoration: none;
+}
+a:link, a:visited {color: #333333; text-decoration: none; }
+a:hover, a:focus, a:active { text-decoration: underline; }
+a, abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, body, center, canvas, caption, cite, code, command, datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li, meter, nav, menu, object, ol, output, p, pre, progress, q, s, samp, section, small, span, source, strike, strong, sub, sup, table, tbody, tfoot, thead, th, tr, tdvideo, tt, u, ul, var { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6, th, td, table, input, button, select, textarea { font-size: 1em; }
+body, input, button, select, textarea { }
+em, cite, address, optgroup { font-style: normal; }
+kbd, samp, code { font-family: monospace; }
+img, input, button, select, textarea { vertical-align: middle; }
+ul, ol { list-style: none outside none; }
+img, fieldset { border: 0 none; }
+abbr, acronym { border-bottom: 1px dotted black; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+legend, hr { left: 0; overflow: hidden; position: absolute; top: 0; }
+legend, hr, caption { font-size: 0; height: 0; line-height: 0; visibility: hidden; width: 0; }
+.group:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.group { display: inline-block; }
+.group { display: block; }
+.clear { clear: both; font-size: 0; height: 0; line-height: 0; width: 0; }
+.hidden { background: none repeat scroll 0 0 transparent; font-size: 0; height: 0; line-height: 0; margin: 0; padding: 0; visibility: hidden; width: 0; }
+.show { visibility: visible; }
+a.accessibility01 { display: block; font-size: 1.3em; left: 0; position: absolute; text-align: center; top: -10000px; width: 100%; z-index: 10000; }
+a.accessibility01:hover, a.accessibility01:focus, a.accessibility01:active { background: none repeat scroll 0 0 #1D60A7; color: #FFFFFF; font-weight: bold; padding: 15px 0; position: absolute; top: 0; z-index: 10000; }
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video { display: block; }
+mark, rp, rt, ruby, summary, time { display: inline; }
+
